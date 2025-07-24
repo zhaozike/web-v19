@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  // 移除 output: 'standalone' 以启用 Serverless Functions
   reactStrictMode: true,
   images: {
     domains: [
@@ -9,6 +9,7 @@ const nextConfig = {
       "pbs.twimg.com",
       "images.unsplash.com",
       "logos-world.net",
+      "suna-1.learnwise.app", // Suna AI images
     ],
   },
 };
